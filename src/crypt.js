@@ -212,7 +212,7 @@ class Crypt {
                 this.options.rsaStandard,
             );
             const fingerprint = this.fingerprint(publicKey);
-            encryptedKeys['keys'] = forge.util.encode64(encryptedKey);
+            encryptedKeys[fingerprint] = forge.util.encode64(encryptedKey);
         });
         console.log('this is keys', encryptedKeys);
         // Create buffer and cipher
