@@ -332,6 +332,22 @@ function () {
       var bytes = forge.util.encodeUtf8(inputString);
       forge.random.collect(bytes);
     }
+    /**
+     *encryptRsa this function to encrypt by publickey
+     *
+     * @param {String} publicKey publickey
+     * @param {String} message to encrypt message
+     * @method
+     */
+
+  }, {
+    key: "encryptRsa",
+    value: function encryptRsa(publicKey, message) {
+      var inputedPublicKey = forge.pki.publicKeyFromPem(publicKey);
+      var encrypted = inputedPublicKey.encrypt(message);
+      var encoded = forge.util.encode64(encrypted);
+      return encoded;
+    }
   }]);
 
   return Crypt;

@@ -327,6 +327,20 @@ class Crypt {
 
     forge.random.collect(bytes);
   }
+  /**
+   *encryptRsa this function to encrypt by publickey
+   *
+   * @param {String} publicKey publickey
+   * @param {String} message to encrypt message
+   * @method
+   */
+  encryptRsa(publicKey: string, message: string): string {
+    const inputedPublicKey = forge.pki.publicKeyFromPem(publicKey);
+    const encrypted = inputedPublicKey.encrypt(message);
+    const encoded = forge.util.encode64(encrypted);
+
+    return encoded;
+  }
 }
 
 module.exports = Crypt;
