@@ -29848,8 +29848,8 @@ exports.clearImmediate = typeof clearImmediate === "function" ? clearImmediate :
 }).call(this,require("timers").setImmediate,require("timers").clearImmediate)
 },{"process/browser.js":50,"timers":51}],52:[function(require,module,exports){
 module.exports={
-    "name": "hybrid-crypto-js",
-    "version": "0.2.4",
+    "name": "@bryce0516/hybrid-crypto-js",
+    "version": "0.0.1",
     "description": "Hybrid (RSA+AES) encryption and decryption toolkit for JavaScript",
     "main": "lib/index.js",
     "scripts": {
@@ -29863,7 +29863,7 @@ module.exports={
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/juhoen/hybrid-crypto-js.git"
+        "url": "https://github.com/bryce0516/hybrid-crypto-js.git"
     },
     "keywords": [
         "rsa",
@@ -29876,9 +29876,9 @@ module.exports={
     "author": "Juho Enala <juho.enala@gmail.com>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/juhoen/hybrid-crypto-js/issues"
+        "url": "https://github.com/bryce0516/hybrid-crypto-js/issues"
     },
-    "homepage": "https://github.com/juhoen/hybrid-crypto-js",
+    "homepage": "https://github.com/bryce0516/hybrid-crypto-js",
     "dependencies": {
         "node-forge": "^0.8.5"
     },
