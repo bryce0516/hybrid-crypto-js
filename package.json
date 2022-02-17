@@ -1,6 +1,6 @@
 {
-    "name": "hybrid-crypto-js",
-    "version": "0.2.4",
+    "name": "@bryce0516/hybrid-crypto-js",
+    "version": "0.0.1",
     "description": "Hybrid (RSA+AES) encryption and decryption toolkit for JavaScript",
     "main": "lib/index.js",
     "scripts": {
@@ -14,7 +14,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/juhoen/hybrid-crypto-js.git"
+        "url": "https://github.com/bryce0516/hybrid-crypto-js.git"
     },
     "keywords": [
         "rsa",
@@ -27,9 +27,9 @@
     "author": "Juho Enala <juho.enala@gmail.com>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/juhoen/hybrid-crypto-js/issues"
+        "url": "https://github.com/bryce0516/hybrid-crypto-js/issues"
     },
-    "homepage": "https://github.com/juhoen/hybrid-crypto-js",
+    "homepage": "https://github.com/bryce0516/hybrid-crypto-js",
     "dependencies": {
         "node-forge": "^0.8.5"
     },

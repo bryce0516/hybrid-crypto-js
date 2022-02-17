@@ -1,3 +1,5 @@
+# This library is forked from juhoen/hybrid-crypto-js
+
 # Hybrid Crypto JS
 
 [![NPM](https://nodei.co/npm/hybrid-crypto-js.png)](https://nodei.co/npm/hybrid-crypto-js/)
