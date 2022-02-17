@@ -29864,7 +29864,7 @@ exports.clearImmediate = typeof clearImmediate === "function" ? clearImmediate :
 }).call(this,require("timers").setImmediate,require("timers").clearImmediate)
 },{"process/browser.js":50,"timers":51}],52:[function(require,module,exports){
 module.exports={
-  "name": "@bryce0516/hybrid-crypto-js",
+  "name": "@hyesungpark/hybrid-crypto-js",
   "version": "0.0.1",
   "description": "Hybrid (RSA+AES) encryption and decryption toolkit for JavaScript",
   "main": "lib/index.js",
