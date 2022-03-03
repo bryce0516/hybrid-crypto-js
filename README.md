@@ -2,6 +2,11 @@
 
 # Hybrid Crypto JS
 
+
+==> npm repository @hyesungpark/hybrid-crypto-js
+https://www.npmjs.com/package/@hyesungpark/hybrid-crypto-js
+
+
 [![NPM](https://nodei.co/npm/hybrid-crypto-js.png)](https://nodei.co/npm/hybrid-crypto-js/)
 
 ## Introduction
